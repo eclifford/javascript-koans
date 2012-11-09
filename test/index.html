@@ -1,0 +1,34 @@
+
+<!doctype html>
+<html>
+<head>
+<title>Test'em Runner</title>
+<link rel="stylesheet" href="/testem/jasmine.css">
+<script src="/testem/jasmine.js"></script>
+<script src="/testem.js"></script>
+<script src="/testem/jasmine-html.js"></script>
+<script src="lib/chai.js"></script>
+<script src="lib/sinon.js"></script>
+<script>expect = chai.expect</script>
+<script>var require = {baseUrl: "/"};</script>
+<script src="/scripts/vendor/require.js"></script>
+<script src="/scripts/vendor/require.config.js"></script>
+<body>
+<div id="mocha"></div>
+<script>
+  require([
+    'specs/calc.spec',
+    'specs/arrays.spec'
+  ], function() {
+    jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
+    jasmine.getEnv().execute();
+  });
+</script>
+
+</body>
+</html>
+
+
+
+
+

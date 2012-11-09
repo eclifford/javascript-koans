@@ -1,0 +1,12 @@
+{
+  "name": "square",
+  "version": "0.0.1",
+  "author": {
+    "name": "Eric Clifford",
+    "email": "ericgclifford@gmail.com"
+  },
+  "jam": {
+    "packageDir": "app/scripts/vendor",
+    "baseUrl": "app"
+  }
+}

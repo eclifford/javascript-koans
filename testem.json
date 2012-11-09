@@ -1,0 +1,1 @@
+{"routes":{"/scripts/vendor":"app/scripts/vendor","/scripts":"temp/scripts","/styles":"temp/styles","/specs":"temp/specs","/templates":"app/templates"},"launch_in_ci":["phantomjs"],"launch_in_dev":["chrome"],"src_files":["app/templates/**/*.tmpl","temp/scripts/**/*.js","test/specs/**/*.coffee"],"test_page":"test/index.html"}
